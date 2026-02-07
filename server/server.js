@@ -11,7 +11,15 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-app.use(cors());
+const corsOptions = {
+  origin: [
+    "https://bug-tracker-app-lime.vercel.app", // Your Vercel URL
+    "http://localhost:5173"                    // Your Localhost (for testing)
+  ],
+  credentials: true // Allow cookies/headers
+};
+
+app.use(cors(corsOptions));
 app.use(express.json());
 
 app.use('/api/auth', authRoutes);
@@ -31,4 +39,5 @@ app.get('/', (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
+
 });
