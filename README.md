@@ -7,8 +7,6 @@ A full-stack bug tracking and project management application built with the MERN
 [![React](https://img.shields.io/badge/React-19.2-blue.svg)](https://reactjs.org/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-7.0-green.svg)](https://www.mongodb.com/)
 
-![Bug Tracker Banner](https://via.placeholder.com/1200x400/1e293b/ffffff?text=Bug+Tracker+Application)
-
 ## 📋 Table of Contents
 
 - [Overview](#overview)
@@ -21,7 +19,6 @@ A full-stack bug tracking and project management application built with the MERN
 - [Running the Application](#running-the-application)
 - [API Documentation](#api-documentation)
 - [Deployment](#deployment)
-- [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -435,20 +432,6 @@ volumes:
   mongo-data:
 ```
 
-## 📸 Screenshots
-
-### Dashboard
-![Dashboard](https://via.placeholder.com/800x500/1e293b/ffffff?text=Dashboard+View)
-
-### Kanban Board
-![Kanban Board](https://via.placeholder.com/800x500/1e293b/ffffff?text=Kanban+Board)
-
-### Ticket Details
-![Ticket Modal](https://via.placeholder.com/800x500/1e293b/ffffff?text=Ticket+Details+Modal)
-
-### Mobile View
-![Mobile View](https://via.placeholder.com/400x700/1e293b/ffffff?text=Mobile+Responsive)
-
 ## 🔒 Security Considerations
 
 - **JWT Tokens**: Short expiration times (1 hour)
@@ -614,19 +597,9 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 ## 📞 Contact & Support
 
-### Get Help
-
-- 📧 **Email**: support@bugtracker.example.com
-- 💬 **Discord**: [Join our community](#)
-- 📖 **Documentation**: [docs.bugtracker.example.com](#)
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/yourusername/bug-tracker-app/issues)
-
-### Author
-
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- Twitter: [@yourhandle](https://twitter.com/yourhandle)
+**Siddharth Bhattacharya**
+- GitHub: [@siddbhatt18](https://github.com/siddbhatt18/)
+- LinkedIn: [Siddharth Bhattacharya](https://linkedin.com/in/siddharth-bhattacharya-8b9710247/)
 
 ## 🙏 Acknowledgments
 
